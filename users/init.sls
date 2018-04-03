@@ -13,4 +13,4 @@ ashaik.key:
     ssh_auth.present :
      - name : ashaik
      - user : ashaik
-     - key  : salt://users/keys/ashaik_key.pub
+     - key  : salt://users/keys/ashaik.key.pub
