@@ -6,11 +6,11 @@ user_ashaik:
      - home          : /home/ashaik
      - uid           : 10000
      - gid_from_name : True
-     - group         : 
+     - groups        : 
         - wheel
 
 ashaik.key:
     ssh_auth.present :
      - name : ashaik
      - user : ashaik
-     - key  : salt://users/keys/ashaik_key
+     - key  : salt://users/keys/ashaik_key.pub
