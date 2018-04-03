@@ -1,7 +1,7 @@
 install_apache:
     pkg.installed:
       - pkgs:
-        - https:
+        - httpd:
 index_html:
     file.managed:
       - name  : /var/www/html/index.html
